@@ -22,9 +22,9 @@ def version(*filepaths):
 
 setup(
     name='pyplotutil',
-    version=version(),
+    version=version('pyplotutil', '__init__.py'),
     description='Plotting utility using matplotlib',
-    long_description=long_description(),
+    long_description=long_description('README.rst'),
     url='https://github.com/atsutahiroshi/pyplotutil',
     author='Hiroshi Atsuta',
     author_email='atsuta.hiroshi@gmail.com',
